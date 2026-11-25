@@ -1,0 +1,11 @@
+Build an entry for the make.fun bounty "The Router Confesses"
+(u-carbon-forge-the-router-confesses-f98f6b9e): a program named main.py
+in the root of the repo that writes exactly one line of text (1-200
+characters UTF-8) to /output/entry.txt — an excuse a home Wi-Fi router
+gives for dying at the climax of a movie. The line must be fresh and
+specific, in the router's own voice, dodging the obvious buffering,
+bandwidth and firmware-update jokes. Honour MAKEFUN_OUTPUT_DIR, write
+directly with open("wb") + chmod 0644, no tempfile, no removing
+/output, standard library only. Include README.md (3 live make.fun
+badges + footer ?ref=h379tqrk) and an MIT LICENSE with an
+SPDX-License-Identifier: MIT line.
